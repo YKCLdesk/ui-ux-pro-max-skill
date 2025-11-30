@@ -1,10 +1,10 @@
-# Antigravity Kit
+# UI UX Pro Max UI SKILL
 
-A collection of AI-powered design intelligence tools for building professional UI/UX across multiple platforms and frameworks.
+An AI skill that provides design intelligence for building professional UI/UX across multiple platforms and frameworks.
 
 ## Overview
 
-Antigravity Kit provides a searchable database of UI styles, color palettes, font pairings, chart types, product recommendations, UX guidelines, and stack-specific best practices. It's designed to work as a skill/workflow for AI coding assistants (Claude, Windsurf, Cursor, etc.).
+UI UX Pro Max is a searchable database of UI styles, color palettes, font pairings, chart types, product recommendations, UX guidelines, and stack-specific best practices. It's designed to work as a skill/workflow for AI coding assistants (Claude, Windsurf, Cursor, etc.).
 
 ## Features
 
@@ -18,7 +18,7 @@ Antigravity Kit provides a searchable database of UI styles, color palettes, fon
 ## Project Structure
 
 ```
-antigravity-kit/
+ui-ux-pro-max/
 ├── .claude/skills/ui-ux-pro-max/    # Claude Code skill
 │   ├── SKILL.md                      # Skill definition
 │   ├── scripts/                      # Search tools
@@ -46,7 +46,7 @@ antigravity-kit/
 │   └── ui-ux-pro-max.md
 ├── .agent/workflows/                 # Generic agent workflow
 │   └── ui-ux-pro-max/
-└── .shared/ui-ux-pro-max/            # Shared data (symlinked)
+└── .shared/ui-ux-pro-max/            # Shared data
 ```
 
 ## Prerequisites

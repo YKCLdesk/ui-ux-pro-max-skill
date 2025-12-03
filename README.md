@@ -35,6 +35,7 @@ uipro init --ai claude      # Claude Code
 uipro init --ai cursor      # Cursor
 uipro init --ai windsurf    # Windsurf
 uipro init --ai antigravity # Antigravity (.agent + .shared)
+uipro init --ai copilot     # GitHub Copilot
 uipro init --ai all         # All assistants
 ```
 
@@ -50,12 +51,13 @@ uipro init --version v1.0.0 # Install specific version
 
 Copy the appropriate folders to your project:
 
-| AI Assistant | Folders to Copy                                                   |
-| ------------ | ----------------------------------------------------------------- |
-| Claude Code  | `.claude/skills/ui-ux-pro-max/`                                   |
-| Cursor       | `.cursor/commands/ui-ux-pro-max.md` + `.shared/ui-ux-pro-max/`    |
-| Windsurf     | `.windsurf/workflows/ui-ux-pro-max.md` + `.shared/ui-ux-pro-max/` |
-| Antigravity  | `.agent/workflows/ui-ux-pro-max.md` + `.shared/ui-ux-pro-max/`    |
+| AI Assistant   | Folders to Copy                                                     |
+| -------------- | ------------------------------------------------------------------- |
+| Claude Code    | `.claude/skills/ui-ux-pro-max/`                                     |
+| Cursor         | `.cursor/commands/ui-ux-pro-max.md` + `.shared/ui-ux-pro-max/`      |
+| Windsurf       | `.windsurf/workflows/ui-ux-pro-max.md` + `.shared/ui-ux-pro-max/`   |
+| Antigravity    | `.agent/workflows/ui-ux-pro-max.md` + `.shared/ui-ux-pro-max/`      |
+| GitHub Copilot | `.github/prompts/ui-ux-pro-max.prompt.md` + `.shared/ui-ux-pro-max/`|
 
 ## Prerequisites
 
@@ -88,6 +90,14 @@ Build a landing page for my SaaS product
 ### Cursor / Windsurf / Antigravity
 
 Use the slash command to invoke the skill:
+
+```
+/ui-ux-pro-max Build a landing page for my SaaS product
+```
+
+### GitHub Copilot
+
+In VS Code with Copilot, type `/` in chat to see available prompts, then select `ui-ux-pro-max`:
 
 ```
 /ui-ux-pro-max Build a landing page for my SaaS product
